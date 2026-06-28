@@ -9,7 +9,7 @@ Features
 4. Data Consistency: Prevents dirty reads and lost updates by combining thread-level mutexes with disk-level file locking
 
 How To Run 
-This project includes a Makefile for easy compilation.
+ This project includes a Makefile for easy compilation.
 1. Compile the Project using make file.
 2. Run Server Side on one terminal using
    ./server
