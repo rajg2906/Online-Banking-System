@@ -8,8 +8,7 @@ Features
 3. File Locking: Safeguards database integrity at the file system level using POSIX fcntl locks directly on .db files.
 4. Data Consistency: Prevents dirty reads and lost updates by combining thread-level mutexes with disk-level file locking
 
-How To Run 
-  This project includes a Makefile for easy compilation.
+How To Run: This project includes a Makefile for easy compilation.
 1. Compile the Project using make file.
 2. Run Server Side on one terminal using
    ./server
